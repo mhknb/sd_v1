@@ -1,0 +1,13 @@
+registry:
+  adult:
+    loader: openml
+    openml_id: 1590
+    target: class
+    task_type: classification
+  credit-g:
+    loader: openml
+    openml_id: 31
+    target: class
+    task_type: classification
+
+

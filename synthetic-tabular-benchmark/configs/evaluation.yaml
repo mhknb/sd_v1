@@ -1,0 +1,12 @@
+metrics:
+  - name: tstr_accuracy
+    module: evaluation.tstr
+    class: TSTRClassifierAccuracy
+    params:
+      model_type: xgboost
+  - name: column_ks
+    module: evaluation.statistics
+    class: KolmogorovSmirnovPerColumn
+    params: {}
+
+

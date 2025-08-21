@@ -1,0 +1,11 @@
+registry:
+  ctgan:
+    class: CTGANModel
+    module: models.ctgan
+    params:
+      epochs: 300
+      batch_size: 500
+      generator_lr: 2e-4
+      discriminator_lr: 2e-4
+
+
